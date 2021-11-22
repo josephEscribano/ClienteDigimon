@@ -6,7 +6,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.series.FXMLAddSerieController">
     <children>
-        <Label layoutX="29.0" layoutY="38.0" text="ADD A NEW DIGIMON" textFill="#000000bb">
+        <Label layoutX="29.0" layoutY="38.0" text="ADD A NEW SERIE" textFill="#000000bb">
             <font>
                 <Font size="18.0" />
             </font>
