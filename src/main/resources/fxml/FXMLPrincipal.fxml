@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="fxRoot" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="gui.controllers.FXMLPrincipalController"
+            prefHeight="450.0" prefWidth="600.0">
+    <top>
+        <MenuBar fx:id="fxMenuTop">
+            <Menu text="Digimons">
+                <items>
+                    <MenuItem onAction="#chargeAddDigimon" text="Add Digimon"/>
+                    <MenuItem onAction="#chargeFindDigimon" text="Find Digimon"/>
+                    <MenuItem onAction="#chargeDeleteDigimon" text="Delete Digimon"/>
+                    <MenuItem onAction="#chargeUpdateDigimon" text="Update Digimon"/>
+                    <MenuItem onAction="#chargeListDigimon" text="List Digimon"/>
+                </items>
+
+            </Menu>
+
+            <Menu text="Series">
+                <items>
+                    <MenuItem onAction="#chargeAddSerie" text="Add Serie"/>
+                    <MenuItem onAction="#chargeFindSerie" text="Find Serie"/>
+                    <MenuItem onAction="#chargeDeleteSerie" text="Delete Serie"/>
+                    <MenuItem onAction="#chargeUpdateSerie" text="Update Serie"/>
+                    <MenuItem onAction="#chargeListSerie" text="List Serie"/>
+                </items>
+
+            </Menu>
+
+        </MenuBar>
+    </top>
+</BorderPane>

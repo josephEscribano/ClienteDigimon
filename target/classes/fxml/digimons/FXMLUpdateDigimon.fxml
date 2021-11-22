@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.digimons.FXMLUpdateDigimonController">
+    <children>
+        <Label layoutX="29.0" layoutY="14.0" text="UPDATE DIGIMON" textFill="#000000bb">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="29.0" layoutY="45.0" prefHeight="17.0" prefWidth="85.0" text="Digimon list:" />
+        <ListView fx:id="listDigimons" onMousePressed="#showData" layoutX="25.0" layoutY="69.0" prefHeight="295.0" prefWidth="373.0" />
+        <TextField fx:id="tfName" layoutX="417.0" layoutY="86.0" />
+        <ComboBox fx:id="cbAtributes" layoutX="416.0" layoutY="140.0" prefWidth="150.0" />
+        <ComboBox fx:id="cbLevel" layoutX="416.0" layoutY="197.0" prefWidth="150.0" />
+        <Label layoutX="416.0" layoutY="123.0" prefHeight="17.0" prefWidth="72.0" text="attribute" />
+        <Label layoutX="416.0" layoutY="179.0" prefHeight="17.0" prefWidth="38.0" text="Level" />
+        <Label layoutX="416.0" layoutY="69.0" text="Name" />
+        <DatePicker fx:id="dpBirth" layoutX="416.0" layoutY="246.0" prefHeight="25.0" prefWidth="150.0" />
+        <Label layoutX="416.0" layoutY="242.0" />
+        <Label layoutX="416.0" layoutY="229.0" prefWidth="32.0" text="Birth" />
+        <Button layoutX="428.0" layoutY="302.0" onAction="#updateDigimon" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Update Digimon" />
+
+
+    </children>
+</AnchorPane>

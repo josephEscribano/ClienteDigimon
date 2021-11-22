@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.series.FXMLListSerieController">
+    <children>
+        <ListView fx:id="lvSeries" onMousePressed="#laadDigimons" layoutX="31.0" layoutY="68.0" prefHeight="138.0" prefWidth="539.0" />
+        <Label layoutX="31.0" layoutY="51.0" text="Series list:" />
+        <Label layoutX="32.0" layoutY="14.0" text="LIST SERIES" textFill="#000000bb">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+      <ListView fx:id="lvDigimons" layoutX="31.0" layoutY="248.0" prefHeight="138.0" prefWidth="539.0" />
+      <Label layoutX="31.0" layoutY="231.0" text="Digimon list:" />
+      <Label layoutX="246.0" layoutY="28.0" text="Select a serie" textFill="#000000bb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
